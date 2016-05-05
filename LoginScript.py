@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 fox.implicitly_wait(10)
 
-fox.get('https://timecard.americafirst.com/wfc/navigator/logon')#the website that you want to go to 
+fox.get('https:// ')#the website that you want to go to 
 
 
 username = fox.find_element_by_id('username')
